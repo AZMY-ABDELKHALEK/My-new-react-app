@@ -14,6 +14,8 @@ const MovieDetails = ({ movies }) => {
     <div>
       <h1>{movie.title}</h1>
       <p>{movie.description}</p>
+      <p>{movie.rating}</p>
+      <img src={movie.posterURL}/>
       <iframe
         width="560"
         height="315"
